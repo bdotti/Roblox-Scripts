@@ -48,22 +48,3 @@ b:Box("Box","number",function(value) -- "number" or "string"
 end)
 
 b:DestroyGui()
-
---[[
-How to refresh a dropdown:
-1)Create the dropdown and save it in a variable
-local yourvariable = b:Dropdown("Hi",yourtable,function(a)
-    print(a)
-end)
-2)Refresh it using the function
-yourvariable:Refresh(yourtable)
-How to refresh a label:
-1)Create your label and save it in a variable
-local yourvariable = b:Label("Pretty Useless NGL",{
-    TextSize = 25; -- Self Explaining
-    TextColor = Color3.fromRGB(255,255,255);
-    BgColor = Color3.fromRGB(69,69,69);
-})
-2)Refresh it using the function
-yourvariable:Refresh("Hello") It will only change the text ofc
-]]
